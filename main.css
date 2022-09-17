@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    background-color: #fff;
+}
+header{
+    display: flex;
+}
+h1{
+    font-family: 'Manrope', sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    color:black
+
+}
+.logo{
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 100px;
+    height: 25px;
+    
+}
+.nav{
+    display: inline-block;
+}
+.nav-items li{
+    display: inline-block;
+    padding: 0px 0px;
+    cursor: pointer;
+    margin-left: 80px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+
+}
+.nav-items :hover{
+    color: #0C84D4;
+}
+.mainimg{
+    width: 100%;
+}
+.maindiv h1{
+    position: absolute; top: 30%; text-align: center;
+    padding: 15px;
+    margin-left: 80px;
+    background-color: transparent;
+}
+.maindiv p{
+    position: absolute; top: 40%; text-align: left;
+    padding: 15px;
+    margin-left: 80px;
+    background-color: transparent;
+}
+.maindiv p.button{
+    font-weight: bold;
+    color: #fff;
+    position: absolute; top: 52%;
+    background-color: #0C84D4;
+    margin-left: 95px;
+    
+}
+p.button:hover{
+    color: black;
+}
+.flexbox{
+    align-items: center;
+    padding: 50px;
+    padding-left: 23%;
+    display: flex;
+    gap: 10%;
+}
+.imgicons{
+    padding: 30px;
+}
+.flexbox2{
+    display: flex;
+    padding: 30px;
+    gap: 5%;
+}
+.lapimg{
+    width: 90%;
+}
+.text{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bolder;
+}
+.subtext{
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Manrope', sans-serif;
+}
+.edge{
+    padding: 40px;
+}
+.micedge{
+    width: 100%;
+    height: 50%;
+}
+.edge h1{
+    position: absolute; top: 190%; text-align: center;
+    padding: 15px;
+    margin-left: 80px;
+    background-color: transparent;
+}
+.edge p{
+    position: absolute; top: 200%; text-align: left;
+    padding: 10px;
+    margin-left: 80px;
+    background-color: #fff;
+    color: black;
+}
+.footer{
+
+    background-color: lightgrey;
+    width: 100%;
+    border: 15px solid lightgrey ;
+    padding: 50px;
+}
